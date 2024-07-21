@@ -1,0 +1,9 @@
+[package]
+name = "echo"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jacob Bumbuna <me@bumbuna.com>"]
+description = "A rust implemenation of the echo command-line utility."
+homepage = "http://tech.bumbuna.com/learning-rust/echo"
+
+[dependencies]
