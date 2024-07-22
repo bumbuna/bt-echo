@@ -21,22 +21,36 @@ $ echo -e "Hello world \n"
 
 ## FLAGS
 -n         Don't add newline at the end of the output (default is to add the line).
+
 -e         Process escaped sequences (default is to ignore).
+
 --version  Show installed version of the program.
+
 --help     Display this help message.
 
 ## ESCAPED SEQUENCES
 \\      backslash
+
 \a      alert (BEL)
+
 \b      backspace
+
 \c      produce no further output
+
 \e      escape
+
 \f      form feed
+
 \n      new line
+
 \r      carriage return
+
 \t      horizontal tab
+
 \v      vertical tab
+
 \0NNN   byte with octal value NNN (1 to 3 digits) (TBD)
+
 \xHH    byte with hexadecimal value HH (1 to 2 digits) (TBD)
 
 ## CONTRIBUTION
